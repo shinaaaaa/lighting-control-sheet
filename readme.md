@@ -5,10 +5,10 @@ cue シートみたいな感じです
 # 書式
 ```
 # メタデータ
-TITLE "ファイルのタイトル"
+TITLE "タイトル"
 URL "https://example.com"
-COMP_DEVICES "Logicool G913", "Logicool G560"
-DESCRIPTION "サンプルファイルです"
+COMP_DEVICES "device_1", "device_2"
+DESCRIPTION "説明"
 
 # ライティングコントロール
 TIME HH:mm:ss.ffffff
@@ -72,7 +72,10 @@ TIME 00:00:06.000000
 ```
 
 # 更新履歴
-2023-08-01 Ver. alpha 0.1
+2023-08-01 alpha 0.1
 - 🎉フォーマットの定義を開始しました🎉
 - 書式の作成
 - メソッドの定義(COLOR, ON, OFF, FLASH)
+
+2023-08-01 alpha 0.2
+- 少し表記を変えました
